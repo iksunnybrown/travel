@@ -433,33 +433,35 @@ header .search-bar-container label:hover{
 /* gallery css section ends here */
 
 /* review css section start here */
-.review .review-slider{
+.review .review-swiper{
     padding-bottom: 2rem;
 }
-.review .box{
+
+.review .swiper-slide{
     padding: 2rem;
     text-align: center;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
     border-radius: .5rem;
 }
-.review .box img{
+.review .swiper-slide img{
     height: 13rem;
     width: 13rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
 }
-.review .box h3{
+.review .swiper-slide h3{
    color: #333;
    font-size: 2.5rem;
 }
-.review .box p{
+.review .swiper-slide p{
     color: #666;
     font-size: 1.5rem;
     padding: 1rem 0;
 
  }
- .review .box .star i{
+
+ .review .swiper-slide .star i{
     color: var(--orange);
     font-size: 1.7rem;
  }
@@ -510,8 +512,8 @@ header .search-bar-container label:hover{
     align-items: center;
 }
 .brand-container .swiper-slide img{
-    width: 10rem; 
-    height: 10rem;
+    width: 8rem; 
+    height: 8rem;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -627,6 +629,10 @@ header .search-bar-container label:hover{
         
     }
     .contact .row form .inputBox input{
+        width: 100%;
+    }
+    .brand-container{
+        text-align: center;
         width: 100%;
     }
 }

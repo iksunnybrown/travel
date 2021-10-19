@@ -43,33 +43,33 @@ videoBtn.forEach(btn =>{
     })
 });
 
-   var swiper = new Swiper(".review-slider", {
+    var swiper = new Swiper(".review-slider", {
         spaceBetween: 20,
-        loop: true,
+        loop:true,
         autoplay: {
             delay: 2500,
-            disableOninteraction: false,
+            disableOnInteraction: false,
         },
         breakpoints:{
-            640:{
+            0:{
                 slidesPerView: 1,
             },
             768:{
                 slidesPerView: 2,
             },
-            1024:{
+            988:{
                 slidesPerView: 3,
             },
 
         },
       });
 
-      var swiper = new Swiper(".brand-slider", {
+    var swiper = new Swiper(".brand-slider", {
         spaceBetween: 20,
-        loop: true,
+        loop:true,
         autoplay: {
             delay: 2500,
-            disableOninteraction: false,
+            disableOnInteraction: false,
         },
         breakpoints:{
             640:{
